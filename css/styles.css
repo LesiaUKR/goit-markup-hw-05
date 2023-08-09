@@ -657,30 +657,29 @@ header .logo {
 }
 
 .form-title {
+  margin-bottom: 16px;
+  text-align: center;
 
-    margin-bottom: 16px;
-    text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-    color: var(--overlays-shadows-headings-color);
+  color: var(--overlays-shadows-headings-color);
 }
 
 .form-wrap {
-margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
-.form-label{
-display: block;
-margin-bottom: 4px;
+.form-label {
+  display: block;
+  margin-bottom: 4px;
 
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 
-  color:var(--subtitle-text-color);
+  color: var(--subtitle-text-color);
 }
 
 .input-wrap {
@@ -697,36 +696,33 @@ margin-bottom: 4px;
   background-color: transparent;
   outline: transparent;
 
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover,
 .form-input:focus {
-
-border-color: var(--primary-brand-color);
-
+  border-color: var(--primary-brand-color);
 }
 
 .form-icon {
-position: absolute;
-left: 16px;
-top: 50%;
-transform: translateY(-50%);
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:hover + .form-icon,
 .form-input:focus + .form-icon {
-
   fill: var(--primary-brand-color);
 }
 
 .textarea-wrap {
-  margin-bottom: 16px
+  margin-bottom: 16px;
 }
 
 .textarea-input {
-height: 120px;
+  height: 120px;
   width: 100%;
   padding: 8px 16px;
 
@@ -735,17 +731,16 @@ height: 120px;
   letter-spacing: 0.04em;
   border-radius: 4px;
   background-color: transparent;
-color: rgba(46, 47, 66, 0.4);
+  color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
-outline: transparent;
-resize: none;
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea-input:hover,
 .textarea-input:focus {
-
-border-color: var(--primary-brand-color);
+  border-color: var(--primary-brand-color);
 }
 
 .privacy-wrap {
@@ -753,15 +748,13 @@ border-color: var(--primary-brand-color);
 }
 
 .user-privacy-checkbox:checked .privacy-icon {
-
-  fill: #F4F4FD;
-
+  fill: #f4f4fd;
 }
 
-.privacy-icon{
+.privacy-icon {
   display: inline-flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 
   width: 16px;
   height: 16px;
