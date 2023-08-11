@@ -633,7 +633,6 @@ header .logo {
   height: 100%;
 
   background-color: rgba(46, 47, 66, 0.4);
-
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
@@ -803,6 +802,7 @@ header .logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
 
   width: 16px;
   height: 16px;
