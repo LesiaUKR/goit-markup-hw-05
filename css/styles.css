@@ -598,8 +598,7 @@ header .logo {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: transparent;
   outline: transparent;
-    color: var(--first-background-color);
-
+  color: var(--first-background-color);
 }
 
 .footer-subscribe-input::placeholder {
@@ -614,12 +613,12 @@ header .logo {
 
   font-size: 16px;
   min-width: 165px;
-    height: 40px;
+  height: 40px;
 }
 
 .subscribe-icon {
   margin-left: 16px;
-  fill: var(--first-background-color)
+  fill: var(--first-background-color);
 }
 
 /* ========== /FOOTER ========== */
